@@ -44,3 +44,4 @@ test("passes 'linkedin' to <Links> as a prop, via <About>", () => {
   expect(a).toBeInTheDocument();
   expect(a.tagName).toEqual("A");
 });
+

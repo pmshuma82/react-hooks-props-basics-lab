@@ -1,11 +1,13 @@
-import React from "react";
+// Home.js
 
-function Home(props) {
+import React from 'react';
+
+function Home({ name, city, color }) {
   return (
-    <div id="home">
-      <h1 style={{ color: props.color }}>
-        {props.name} is a Web Developer from {props.city}
-      </h1>
+    <div>
+      <h1 style={{ color }}>Welcome, {name}!</h1>
+      <p>City: {city}</p>
+      <p>Favorite Color: {color}</p>
     </div>
   );
 }
